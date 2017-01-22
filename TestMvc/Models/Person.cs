@@ -13,5 +13,7 @@ namespace TestMvc.Models
         [DataType(DataType.Password)]
         public string Password { get; set; }
         public string Email { get; set; }
+
+        public string ForkId { get; set; }
     }
 }
